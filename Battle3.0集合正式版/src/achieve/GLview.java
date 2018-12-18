@@ -95,7 +95,7 @@ public class GLview implements GLEventListener{
 	public void drawtext(GLAutoDrawable drawable,String a,int x,int y){
 		GL2 gl = drawable.getGL().getGL2();
 	    gl.glPushAttrib(GL2.GL_CURRENT_BIT);
-   	    tx.beginRendering(drawable.getWidth(), drawable.getHeight());
+   	    tx.beginRendering(drawable.getSurfaceWidth(), drawable.getSurfaceHeight());
    	    tx.draw(a,x,y);
    	    tx.endRendering();
    	    gl.glPopAttrib();
