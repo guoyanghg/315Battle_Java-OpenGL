@@ -45,17 +45,23 @@ You can find the Main fuction in playground.java
 
 ### Game Operation
 
-*Single PLAY
-Game operation
-W S move forward and backward
-Q E A D adjusts the muzzle angle
-F R adjust the firing speed
-Space bar fire
+* Single Play
+
+W S: move forward and backward
+
+Q E A D: adjusts the direction of artillery 
+
+F R: adjust the firing speed(upward & downward)
+
+Space bar: fire
+
 Drag the left and right mouse buttons to adjust the angle of view
 
 
-Online battle
+* Online 
+
 Completed by a simple P2P mode
+
 Both parties open the client, and the inviter enters the IP address of the other party to request the connection.
 
 
