@@ -8,11 +8,10 @@ Eclipse projects of 3D naval battle game
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
-Eclipse for Java
-JOGL 2.1
-Download: http://jogamp.org/deployment/archive/rc/
+* Eclipse for Java
+* JOGL 2.1
 
-Only following jars corresponding to your own system.
+Download following jars corresponding to your own system.
 ```
 Gluegen-rt
 Gluegen-rt-natives
@@ -23,15 +22,17 @@ Newt-natives-
 
 ```
 
+Link: http://jogamp.org/deployment/archive/rc/
+
 ### Installing
 
-1.Copy the project into workspace the import it
+* Copy the project into Eclipse workspace and import it
 
 ```
 Ecplise->File->import->choose your project
 ```
 
-2.Installing JOGL
+* Installing JOGL
 
 ```
 Project-> Add Path-> JOGL2.1
@@ -40,15 +41,23 @@ Project-> Add Path-> JOGL2.1
 
 ## Running 
 
-Explain how to run the automated tests for this system
+You can find the Main fuction in playground.java
 
 ### Game Operation
 
-Explain what these tests test and why
+*Single PLAY
+Game operation
+W S move forward and backward
+Q E A D adjusts the muzzle angle
+F R adjust the firing speed
+Space bar fire
+Drag the left and right mouse buttons to adjust the angle of view
 
-```
-Give an example
-```
+
+Online battle
+Completed by a simple P2P mode
+Both parties open the client, and the inviter enters the IP address of the other party to request the connection.
+
 
 ## Authors
 
