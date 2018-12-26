@@ -20,8 +20,6 @@ Gluegen-rt
 Gluegen-rt-natives
 Jogl-all
 Jogl-all-natives
-Nativewindow-natives
-Newt-natives-
 Please download jars corresponding to your own system.
 
 ```
