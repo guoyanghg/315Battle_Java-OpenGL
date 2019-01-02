@@ -1,5 +1,5 @@
 # 315Battle_Java-OpenGL
-Eclipse project of 3D naval battle game
+Eclipse projects of 3D naval battle game
 
 Battle3.0 is the latest version.
 
