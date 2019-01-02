@@ -41,13 +41,11 @@ Project-> Add Path-> JOGL2.1
 
 ## Running 
 
-You can find the Main fuction in playground.java
+You can find the Main fuction in `playground.java`
 
 ## Game Operation
 
 * Single Play
-
-In order to operate the game, please use the following keys on the keyboard:
 
 W S - to move forwards and backwards
 
@@ -62,9 +60,9 @@ Drag the left and right mouse buttons - to adjust the angle of view
 
 * Online Battle
 
-This requires a simple P2P connection between the two parties.
+This requires a simple P2P connection between the two players.
 
-Both parties should open the P2P client, then the inviter should enter the IP address of the other party to request the P2P connection to be established.
+Both players should open the game client, then the inviter should enter the IP address of the other player to request the connection.
 
 
 ## Authors
